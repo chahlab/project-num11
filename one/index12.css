@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    background-image:linear-gradient(to bottom, rgba(25, 19, 79, 0.489), rgba(0, 36, 128, 0.484));
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header{
+    background-image: linear-gradient(rgba(30, 93, 148, 0.502), rgb(30, 89, 155));
+    border-radius: 10px;
+    font-style:italic;
+    padding: 6px;
+    margin: 20px;
+    width: auto;
+}
+
+h1{
+    text-shadow: 3px 3px rgb(148, 95, 104) ;
+    font-size: 40px;
+
+}
+img{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+p::first-letter{
+    color:rgb(47, 70, 70);
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.five{
+    float:left;
+    margin: 20px;
+}
